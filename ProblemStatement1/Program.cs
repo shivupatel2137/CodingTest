@@ -52,6 +52,40 @@ namespace ProblemStatement1
                     }
                     sum += val * b;
                 }
+                else if (sku.ToUpper().Contains("C"))
+                {
+                    if (!Ids.Any(x => x.ToUpper().Contains("D")))
+                        sum += val * c;
+                }
+                else if (sku.ToUpper().Contains("D"))
+                {
+                    if (Ids.Any(x => x.ToUpper().Contains("C")))
+                    {
+                        int Cval = Convert.ToInt32(Ids.Where(x => x.ToUpper().Contains("C")).FirstOrDefault().ToString().Substring(0, 1));
+                        if (val == Cval)
+                        {
+                            sum += val * CnD;
+                        }
+                        else if (val > Cval)
+                        {
+                            int i = val - Cval;
+                            sum += Cval * CnD;
+                            val -= i;
+                            sum += i * d;
+                        }
+                        else if (Cval > val)
+                        {
+                            int i = Cval - val;
+                            sum += val * CnD;
+                            val -= i;
+                            sum += i * c;
+                        }
+                    }
+                    else
+                    {
+                        sum += val * d;
+                    }
+                }
             }
             return "Total : " + sum;
         }
