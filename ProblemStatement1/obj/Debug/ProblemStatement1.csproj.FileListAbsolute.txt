@@ -1,0 +1,6 @@
+C:\Users\Aum\Desktop\shivu_123\ProblemStatement1\ProblemStatement1\bin\Debug\ProblemStatement1.exe.config
+C:\Users\Aum\Desktop\shivu_123\ProblemStatement1\ProblemStatement1\obj\Debug\ProblemStatement1.csprojResolveAssemblyReference.cache
+C:\Users\Aum\Desktop\shivu_123\ProblemStatement1\ProblemStatement1\bin\Debug\ProblemStatement1.exe
+C:\Users\Aum\Desktop\shivu_123\ProblemStatement1\ProblemStatement1\bin\Debug\ProblemStatement1.pdb
+C:\Users\Aum\Desktop\shivu_123\ProblemStatement1\ProblemStatement1\obj\Debug\ProblemStatement1.exe
+C:\Users\Aum\Desktop\shivu_123\ProblemStatement1\ProblemStatement1\obj\Debug\ProblemStatement1.pdb
